@@ -1,0 +1,179 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/* Grid system */
+
+.container {
+	width: 1000px;
+	padding-left: 14px; 
+	padding-right: 14px;
+	margin: 0px auto;
+}
+
+.row {
+	margin-left: -14px;
+	margin-right: -14px;
+}
+
+.row:before, .row:after{
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+[class*="col-"] {
+	min-height: 7px;
+	padding: 0 14px;
+	float: left;
+}
+
+.col-1 {
+	/* (1 / 12) x 100 */
+	width: 8.333333%;
+} 
+
+.col-2 {
+	/* (2 / 12) x 100 */
+	width: 16.666667%;
+} 
+
+.col-3 {
+	/* (3 / 12) x 100 */
+	width: 25%;
+} 
+
+.col-4 {
+	/* (4 / 12) x 100 */
+	width: 33.333333%;
+}
+
+.col-5 {
+	/* (5 / 12) x 100 */
+	width: 41.666667%;
+}
+
+.col-6 {
+	/* (6 / 12) x 100 */
+	width: 50%;
+} 
+
+.col-7 {
+	/* (7 / 12) x 100 */
+	width: 58.333333%;
+}
+
+.col-8 {
+	/* (8 / 12) x 100 */
+	width: 66.666667%;
+}
+
+.col-9 {
+	/* (9 / 12) x 100 */
+	width: 75%;
+}
+
+.col-10 {
+	/* (10 / 12) x 100 */
+	width: 83.333333%;
+}
+
+.col-11 {
+	/* (11 / 12) x 100 */
+	width: 91.666667%;
+}
+
+.col-12 {
+	/* (12 / 12) x 100 */
+	width: 100%;
+}
+
+header{ 
+	background:#2D2C2C;
+       }
+
+.logo{ 
+	width: 150px;
+    height: 150px;}
+ 
+.col-12 {
+	text-align: right;
+    position: relative;
+    bottom: 70px;
+          }
+a:link { 
+	text-decoration:none;color:#F9FCF0;
+    margin-right:20px; } 
+
+h2{ text-align: left;
+    position: relative;
+    left: 20px;}
+
+em{ color:blue;
+    font-size: 15px;}
+
+.tres{ 
+	width: 200px;
+	height: 200px;}
+
+.fondo{ 
+	background-color: #989596;
+    height: 250px;} 
+
+img {padding: 20px;
+	width: 150px;
+	height: 150px;
+	
+ 	   }
+
+p{ position: relative;
+   bottom: 23px;
+   color: blue;}
+
+.col-2{ 
+	text-align: right;
+    position: relative;
+    top: 20px;
+    color:blue;
+    ;
+      }
+
+footer{
+	background:#3D3C3C;
+	height: 150px;
+	margin: 20px;
+
+	}
+h5{ position: relative;
+	left: 20px;
+	text-align: left;
+	margin: 20px;
+	text-decoration:none;color:#F9F6F6;
+	margin-left: 10px;
+	font-size: 10px Arial;
+}
+
+.centro{  text-align: center;
+          font-size:15px  #888787;
+          }
+
+h6{ text-align: center;
+   padding-top: 20px;}
+	
+
+    
+
+
